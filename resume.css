@@ -1,0 +1,98 @@
+
+.header{
+	font-family:cursive;
+	font-size:101%;
+	text-align: center;
+	background: #FF9966;
+	padding: 70px; 
+}
+
+h1{
+	font : bold;
+	color: green;
+	font-family: cursive;
+}
+h2{
+	color:maroon;
+}
+h3{
+	font-family: Georgia;
+	padding: 0px 0px 20px 0px;
+	color: #330066;
+	display : solid;
+}
+p{
+	color:maroon;
+	font-size: 120%;
+	font-family: italic;
+}
+.gmail{
+	overflow:hidden;
+	background-color:	#CC9933;
+}
+.gmail a{
+	float: left;
+	display: block;
+	text-align: center;
+	font-size:100%;
+	font-family: Arial;
+	padding: 20px 25px;
+}
+*{
+	box-sizing: border-box;
+}
+.row{
+	display: flex;
+	flex-wrap:wrap; 
+}
+.side{
+	padding:10px; 
+	background-color: #66CC99;
+	flex : 30%;
+}
+.main{
+	padding: 10px;
+	flex : 70%;
+	background-color: white;
+	text-align: left;
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	background-color: gray;
+}
+.skills{
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color:white;
+}
+.english{width:80%; background-color: orange;}
+.Telugu{width:90%; background-color: white;}
+.Hindi{width:70%; background-color: green;}
+.cc{width:80%;background-color:	#FFCC00 ;}
+.pythonjava{width:60%;background-color:	#FF9966 ;}
+.wu{width: 80%;background-color:	#CCFFFF ;}
+#studies{
+	font-family: Times New Roman;
+	border-collapse: collapse;
+  	width: 100%;
+}
+#studies th{
+	background-color: #993333;
+	color:black;
+}
+#studies td, #studies th {
+	font-size: 20px;
+  border: 1px solid #ddd;
+  border-width: 3px;
+  border-color: #000033;
+  padding: 8px;
+}
+.footer{
+	padding: 5px;
+	text-align: center;
+	background-color:	#CC9933 ;
+}
